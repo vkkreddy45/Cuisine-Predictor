@@ -6,7 +6,7 @@ import prediction
 def main(args):
     # Getting the input data
     if args.N and args.ingredient:
-        print(args.N, args.ingredient)
+        #print(args.N, args.ingredient)
         prediction.start(args.ingredient,args.N)
     
 if __name__=='__main__':
