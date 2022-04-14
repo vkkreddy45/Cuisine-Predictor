@@ -1,0 +1,6 @@
+1. Replacing Digits, https://stackoverflow.com/questions/19084443/replacing-digits-with-str-replace, Used this as reference for checking how to replace digits.
+2. Sklearn Libraries Examples, https://machinelearningmastery.com/standardscaler-and-minmaxscaler-transforms-in-python/, Used this link for getting some idea on how to fit the model and how to implement using different libraries.
+3. Argument Parsing, https://stackoverflow.com/questions/25778813/how-to-read-multiple-command-line-parameters-with-same-flag-in-python, Used this as reference on how to parse and what action to be taken.
+4. Label Encoding, https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html, Used this link for refering on how to use Label encoding in my model design.
+5. Cosine Similarity, https://gist.github.com/pgolding/fdf74a3e8e797fad0391befd5a906ddb, Used this to know on what parameters we run the cosine similarity function and to know how to use.
+6. Json dump Foramt, https://stackoverflow.com/questions/37398301/json-dumps-format-python, Used this as reference to know on how to use json dump and get the output in json format.
