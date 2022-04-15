@@ -6,10 +6,15 @@
 
 # About
 
-In this Project the main goal is to create applications that take a list of ingredients from a user and attempts to predict the type of cuisine and similar meals. Consider a chef who has a list of ingredients and would like to change the current meal without changing the ingredients. Concepts that I have used for implementing this project are text analytics and Knowledge of python.
+In this Project the main goal is to create applications that take a list of ingredients from a user and attempts to predict the type of cuisine and similar meals. Given to Consider a chef who has a list of ingredients and would like to change the current meal without changing the ingredients. Concepts that I have used for implementing this project are text analytics and Knowledge of python.
 
 
-### Table of Contents
+# Project Structure
+
+<img width="399" alt="Screen Shot 2022-04-14 at 4 07 25 PM" src="https://user-images.githubusercontent.com/98420519/163499439-7b4960ac-d2da-4cce-88a4-ce8e9c5c3de9.png">
+
+
+# Table of Contents
 
 **[Required Packages](#required-packages)**<br>
 **[Function Description](#function-description)**<br>
@@ -41,15 +46,15 @@ The below mentioned are the packages used for this Project:
         
     b. preprocess():
     
-        This function is used to clean the read data using normalaization techniques like stemming, lemataization etc. In this function firstly we append all the ingredients data into a list from a data frame and then we convert all the characters to lower. Then we check if there are any digits and replace them as empty and then using nltk we tokenize the data. Finally, we check if there are any stop words and then remove then by not appending them into a list.
+        This function is used to clean the read data using normalaization techniques like stemming, lemataization etc. In this function firstly we append all the ingredients data into a list from a data frame and then we convert all the characters to lower. we also append input so that it will be passed to the next function and get vectorized. Then we check if there are any digits and replace them as empty and then using nltk we tokenize the data. Finally, we check if there are any stop words and then remove them by not appending them into a list.
         
      c. vectorization(): 
      
-         This function is used to vectorize all the data that is returned from the previous function. In this function we store the first index vectorized data in to one variable as this is the vectorized input that we are using as input and then we store the remaining data into other variable which we using the next function.
+         This function is used to vectorize all the data that is returned from the previous function. In this function we store the first index vectorized data in to one variable as this is the vectorized input that we are using as input and then we store the remaining data into other variable which we use in the next function.
          
      d. model():
      
-         This function is used to build a model, create a pipeline and for train_test_split. In this function we first build the model with SVC() and create a pipeline. Then we train, test and split the data. Then we fit the data into the created pipeline and find the cuisine.
+         This function is used to build a model, create a pipeline and for train_test_split. In this function we first build the model with SVC() and create a pipeline. Then we train, test and split the data and fit the data into the created pipeline and find the cuisine.
          
      e. TopnRecipe():
      
@@ -61,7 +66,7 @@ The below mentioned are the packages used for this Project:
         
      g. write_to_file():
      
-         In this Function we are trying to write the entire output into a file by creating a new file.
+         In this Function, we are trying to write the entire output into a file by creating a new file.
          
      h. start():
      
@@ -73,7 +78,7 @@ The below mentioned are the packages used for this Project:
     
      a. main(args): 
   
-         In this Function, we check whether the passed flags from the command line are present or not and. If the flags are true then we fetch the start function in the prediction file. This start function is the one where the entire prediction process is done.
+         In this Function, we check whether the passed flags from the command line are present or not. If the flags are true then we fetch the start function in the prediction file. This start function is the one where the entire prediction process is done [function calling is done].
                    
 3. test/test_data.py:
 
