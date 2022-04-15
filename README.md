@@ -122,12 +122,26 @@ The below mentioned are the packages used for this Project:
 ```
 pipenv run python project2.py --N 5 --ingredient paprika --ingredient banana --ingredient "rice krispies" 
 ```
+or 
+
+```
+pipenv run python project2.py --N 5 --ingredient "chili powder" --ingredient "crushed red pepper flakes" --ingredient "garlic powder" --ingredient "sea salt" --ingredient "ground cumin" --ingredient "onion powder" --ingredient "dried oregano" --ingredient "ground black pepper" --ingredient "paprika"
+```
+
+*Output:
+
+<img width="749" alt="Screen Shot 2022-04-14 at 8 03 47 PM" src="https://user-images.githubusercontent.com/98420519/163501665-7d25a0f8-6358-4352-aab7-334d1b8a3387.png">
+
 
 # How to run the test cases
 
 ```
 pipenv run python -m pytest
 ```
+
+*Output:
+
+<img width="746" alt="Screen Shot 2022-04-14 at 8 08 32 PM" src="https://user-images.githubusercontent.com/98420519/163502017-0f2e6668-d0b2-462f-8f10-b2d7e8489d8f.png">
 
 
 # Bugs and Assumptions
